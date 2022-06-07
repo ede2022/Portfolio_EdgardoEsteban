@@ -1,0 +1,11 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color: rgb(81, 49, 199);
+}
+
+h1,h3{
+    display: inline; /* posiciona ambos elementos en una misma linea*/
+}
