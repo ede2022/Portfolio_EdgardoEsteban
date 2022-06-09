@@ -7,7 +7,7 @@ div{
     text-align: center;
 }
 
-/* Reaccion Foto de Perfil en resolucion menor a 576*/
+/* Reaccion Foto de Perfil en resolucion mayor a 576*/
     @media (min-width: 576px){
     #fotoperfil{
         position: absolute;
@@ -15,10 +15,10 @@ div{
         border-radius: 50%;
         box-shadow: 3px 3px 3px black;
         left: 2%;
-        top: 400px;
+        top: 470px;
     } 
 }
-/* Reaccion Foto de Perfil en resolucion mayor a 575*/
+/* Reaccion Foto de Perfil en resolucion menor a 575*/
 @media (max-width: 575px){
     #fotoperfil{
         position: absolute;
@@ -26,7 +26,7 @@ div{
         border-radius: 50%;
         box-shadow: 3px 3px 3px black;
         left: 33%;
-        top: 250px;
+        top: 470px;
     } 
 }
 
